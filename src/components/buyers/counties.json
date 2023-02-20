@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_buyers_counties",
+  "info": {
+    "displayName": "counties"
+  },
+  "options": {},
+  "attributes": {
+    "county_name": {
+      "type": "string"
+    }
+  }
+}

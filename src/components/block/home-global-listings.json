@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_home_global_listings",
+  "info": {
+    "displayName": "home_global_listings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-parts.image-link"
+    }
+  }
+}

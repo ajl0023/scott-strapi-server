@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_socials",
+  "info": {
+    "displayName": "socials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social_media": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

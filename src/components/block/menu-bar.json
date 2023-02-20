@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_menu_bars",
+  "info": {
+    "displayName": "menu_bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "agent_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

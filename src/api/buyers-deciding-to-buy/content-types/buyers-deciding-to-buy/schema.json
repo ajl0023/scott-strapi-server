@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "buyers_deciding_to_buys",
+  "info": {
+    "singularName": "buyers-deciding-to-buy",
+    "pluralName": "buyers-deciding-to-buys",
+    "displayName": "buyers/deciding-to-buy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

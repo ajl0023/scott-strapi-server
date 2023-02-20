@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "neighborhood_guides",
+  "info": {
+    "singularName": "neighborhood-guide",
+    "pluralName": "neighborhood-guides",
+    "displayName": "neighborhood-guide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "counties": {
+      "displayName": "counties",
+      "type": "component",
+      "repeatable": true,
+      "component": "buyers.counties"
+    }
+  }
+}

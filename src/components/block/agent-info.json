@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_agent_infos",
+  "info": {
+    "displayName": "agent_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "default": "6263271836"
+    },
+    "email": {
+      "type": "email",
+      "default": "scott.james@elliman.com"
+    },
+    "wechat": {
+      "type": "string",
+      "default": "WeChatSCOTTJ888"
+    },
+    "calDRE": {
+      "type": "string",
+      "default": "#01911554"
+    }
+  }
+}

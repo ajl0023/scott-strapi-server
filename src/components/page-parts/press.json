@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_parts_presses",
+  "info": {
+    "displayName": "press"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

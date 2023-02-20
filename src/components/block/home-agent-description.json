@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_block_home_agent_descriptions",
+  "info": {
+    "displayName": "home_agent_description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "agent_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.paragraph"
+    },
+    "background_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

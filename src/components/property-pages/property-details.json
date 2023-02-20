@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_property_pages_property_details",
+  "info": {
+    "displayName": "property_details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "property_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "youtube_url": {
+      "type": "string"
+    }
+  }
+}

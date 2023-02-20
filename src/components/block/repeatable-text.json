@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_block_repeatable_texts",
+  "info": {
+    "displayName": "repeatable_text"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

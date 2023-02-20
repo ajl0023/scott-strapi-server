@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image_carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "home_agent": {
+      "displayName": "home_agent_description",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.home-agent-description"
+    },
+    "featured_listings": {
+      "type": "dynamiczone",
+      "components": [
+        "block.url-image"
+      ]
+    },
+    "global_listings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.home-global-listings"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.url-image"
+    },
+    "sales_statistics": {
+      "displayName": "sales_statistics",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.sales-statistics"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.testimonial-home-page"
+    },
+    "media_relations": {
+      "displayName": "media_relations",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.media-relations"
+    }
+  }
+}

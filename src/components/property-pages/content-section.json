@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_property_pages_content_sections",
+  "info": {
+    "displayName": "new developments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "development": {
+      "displayName": "development",
+      "type": "component",
+      "repeatable": true,
+      "component": "property-pages.development"
+    }
+  }
+}

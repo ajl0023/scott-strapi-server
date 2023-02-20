@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_our_clients_are_sayings",
+  "info": {
+    "singularName": "what-our-clients-are-saying",
+    "pluralName": "what-our-clients-are-sayings",
+    "displayName": "what-our-clients-are-saying"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
+    }
+  }
+}

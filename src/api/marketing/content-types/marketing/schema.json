@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "marketings",
+  "info": {
+    "singularName": "marketing",
+    "pluralName": "marketings",
+    "displayName": "marketing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "navigation_menu": {
+      "displayName": "navigation_menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-parts.navigation-menu"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-parts.link"
+    }
+  }
+}

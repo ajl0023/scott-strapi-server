@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "sellers_escrow_inspections_and_appraisals",
+  "info": {
+    "singularName": "sellers-escrow-inspections-and-appraisal",
+    "pluralName": "sellers-escrow-inspections-and-appraisals",
+    "displayName": "sellers/escrow-inspections-and-appraisal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

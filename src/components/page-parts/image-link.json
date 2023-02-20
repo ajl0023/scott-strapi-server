@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_parts_image_links",
+  "info": {
+    "displayName": "image_link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "is_external_link": {
+      "type": "boolean"
+    },
+    "is_file": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

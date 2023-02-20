@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_background_images",
+  "info": {
+    "displayName": "background_image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

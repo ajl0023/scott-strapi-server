@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profile_informations",
+  "info": {
+    "singularName": "profile-information",
+    "pluralName": "profile-informations",
+    "displayName": "profileInformation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "personal",
+        "social media"
+      ]
+    },
+    "contact_info_type": {
+      "type": "string"
+    },
+    "contact_info": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "sellers_accepting_an_offers",
+  "info": {
+    "singularName": "sellers-accepting-an-offer",
+    "pluralName": "sellers-accepting-an-offers",
+    "displayName": "sellers/accepting-an-offer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

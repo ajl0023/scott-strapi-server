@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_media_relations",
+  "info": {
+    "displayName": "media_relations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "text"
+    },
+    "media_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-post.media-post"
+    }
+  }
+}

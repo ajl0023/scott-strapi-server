@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "sellers_select_an_agent_and_prices",
+  "info": {
+    "singularName": "sellers-select-an-agent-and-price",
+    "pluralName": "sellers-select-an-agent-and-prices",
+    "displayName": "sellers/select-an-agent-and-price"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

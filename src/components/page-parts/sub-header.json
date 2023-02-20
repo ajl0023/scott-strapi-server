@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_parts_sub_headers",
+  "info": {
+    "displayName": "sub_header"
+  },
+  "options": {},
+  "attributes": {
+    "main_header": {
+      "type": "string"
+    }
+  }
+}

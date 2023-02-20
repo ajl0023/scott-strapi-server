@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "buyers_moving_ins",
+  "info": {
+    "singularName": "buyers-moving-in",
+    "pluralName": "buyers-moving-ins",
+    "displayName": "buyers/moving-in"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

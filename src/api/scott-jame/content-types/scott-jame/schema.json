@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "scott_james",
+  "info": {
+    "singularName": "scott-jame",
+    "pluralName": "scott-james",
+    "displayName": "scott-jame"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

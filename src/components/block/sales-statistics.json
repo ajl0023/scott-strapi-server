@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_sales_statistics",
+  "info": {
+    "displayName": "sales_statistics"
+  },
+  "options": {},
+  "attributes": {
+    "background_photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

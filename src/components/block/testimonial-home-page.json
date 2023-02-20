@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_testimonial_home_pages",
+  "info": {
+    "displayName": "testimonial_home_page",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "scott_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bg_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

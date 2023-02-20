@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "category_media_relations",
+  "info": {
+    "singularName": "category-media-relation",
+    "pluralName": "category-media-relations",
+    "displayName": "category/media-relation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pholder": {
+      "type": "string"
+    }
+  }
+}

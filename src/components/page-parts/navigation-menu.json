@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_parts_navigation_menus",
+  "info": {
+    "displayName": "navigation_menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_property_pages_developments",
+  "info": {
+    "displayName": "development",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "property_details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "property-pages.property-details"
+    },
+    "partner_details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "property-pages.partner-details"
+    },
+    "development_name": {
+      "type": "string"
+    }
+  }
+}

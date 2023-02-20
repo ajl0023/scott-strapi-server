@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_block_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "disclaimer": {
+      "type": "text"
+    },
+    "partner_logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contact_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.agent-info"
+    },
+    "form_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "market_areas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.repeatable-text"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "eh_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copyright_photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
