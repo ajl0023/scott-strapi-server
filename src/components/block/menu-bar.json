@@ -16,6 +16,16 @@
         "videos",
         "audios"
       ]
+    },
+    "profile_informations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::profile-information.profile-information"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   }
 }

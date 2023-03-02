@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_exposure_2s",
+  "info": {
+    "singularName": "global-exposure-2",
+    "pluralName": "global-exposure-2s",
+    "displayName": "global-exposure-2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_text": {
+      "type": "text"
+    },
+    "media_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video_collection": {
+      "displayName": "video_image",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-parts.video-image"
+    }
+  }
+}

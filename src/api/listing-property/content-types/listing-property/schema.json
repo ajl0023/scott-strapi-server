@@ -1,0 +1,85 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listing_properties",
+  "info": {
+    "singularName": "listing-property",
+    "pluralName": "listing-properties",
+    "displayName": "listing_property",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "property_type": {
+      "type": "enumeration",
+      "enum": [
+        "House",
+        "Lot",
+        "Multi-Unit Residential"
+      ],
+      "required": true
+    },
+    "listing_id": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "text"
+    },
+    "address": {
+      "type": "string"
+    },
+    "exterior_features": {
+      "displayName": "exterior_feature",
+      "type": "component",
+      "repeatable": false,
+      "component": "listings.exterior-feature"
+    },
+    "interior_features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listings.interior-features"
+    },
+    "additional_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listings.additional-info"
+    },
+    "location_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "listings.location-info"
+    },
+    "list_by": {
+      "type": "string"
+    }
+  }
+}

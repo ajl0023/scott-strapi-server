@@ -19,6 +19,8 @@
     "formdata-node": "^5.0.0",
     "ngrok": "^4.3.3",
     "node-fetch": "^2.6.9",
+    "strapi-plugin-country-select": "^1.0.0",
+    "strapi-plugin-ezforms": "^0.1.5",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {

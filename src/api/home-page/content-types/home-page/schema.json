@@ -12,38 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image_carousel": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "home_agent": {
       "displayName": "home_agent_description",
       "type": "component",
       "repeatable": false,
       "component": "block.home-agent-description"
     },
-    "featured_listings": {
-      "type": "dynamiczone",
-      "components": [
-        "block.url-image"
-      ]
-    },
     "global_listings": {
       "type": "component",
       "repeatable": false,
       "component": "block.home-global-listings"
-    },
-    "services": {
-      "type": "component",
-      "repeatable": true,
-      "component": "block.url-image"
     },
     "sales_statistics": {
       "displayName": "sales_statistics",
@@ -61,6 +39,40 @@
       "type": "component",
       "repeatable": false,
       "component": "block.media-relations"
+    },
+    "follow_me": {
+      "displayName": "FollowMe",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.follow-me"
+    },
+    "real_deal_news": {
+      "displayName": "real_deal_news",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.real-deal-news"
+    },
+    "future_projects": {
+      "displayName": "futureProjects",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.future-projects"
+    },
+    "listings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::listing-property.listing-property"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    },
+    "image_slider": {
+      "displayName": "image_slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.image-slider"
     }
   }
 }

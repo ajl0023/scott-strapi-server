@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "concierges",
+  "info": {
+    "singularName": "concierge",
+    "pluralName": "concierges",
+    "displayName": "concierge"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

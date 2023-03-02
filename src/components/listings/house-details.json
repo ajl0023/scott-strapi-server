@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_listings_house_details",
+  "info": {
+    "displayName": "house_details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "beds": {
+      "type": "integer"
+    },
+    "bath_half": {
+      "type": "integer"
+    },
+    "bath_full": {
+      "type": "integer"
+    },
+    "sqft": {
+      "type": "integer"
+    }
+  }
+}

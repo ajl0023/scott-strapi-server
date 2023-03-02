@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_listings_lot_details",
+  "info": {
+    "displayName": "lot_details"
+  },
+  "options": {},
+  "attributes": {
+    "acres": {
+      "type": "integer"
+    }
+  }
+}

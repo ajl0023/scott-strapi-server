@@ -43,6 +43,24 @@
       "type": "component",
       "repeatable": false,
       "component": "page-parts.image-link"
+    },
+    "media_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "media_text": {
+      "type": "text"
+    },
+    "video_collection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-parts.video-image"
     }
   }
 }

@@ -1,19 +1,27 @@
 {
   "collectionName": "components_block_sales_statistics",
   "info": {
-    "displayName": "sales_statistics"
+    "displayName": "sales_statistics",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "background_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "stats": {
+      "displayName": "sale_stat",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.sale-stat"
     }
   }
 }

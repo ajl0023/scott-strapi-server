@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "awards_wons",
+  "info": {
+    "singularName": "awards-won",
+    "pluralName": "awards-wons",
+    "displayName": "awards-won"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

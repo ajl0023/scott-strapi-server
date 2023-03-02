@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_listings_multi_unit_details",
+  "info": {
+    "displayName": "multi_unit_details"
+  },
+  "options": {},
+  "attributes": {
+    "units": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "market_reports",
+  "info": {
+    "singularName": "market-report",
+    "pluralName": "market-reports",
+    "displayName": "market-report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "report": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "intro_text": {
+      "type": "string"
+    }
+  }
+}

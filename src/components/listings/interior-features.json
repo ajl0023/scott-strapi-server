@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_listings_interior_features",
+  "info": {
+    "displayName": "interior_features"
+  },
+  "options": {},
+  "attributes": {
+    "stories": {
+      "type": "integer"
+    },
+    "half_baths": {
+      "type": "integer"
+    },
+    "has_basement": {
+      "type": "boolean"
+    },
+    "common_walls": {
+      "type": "integer"
+    },
+    "full_baths": {
+      "type": "integer"
+    },
+    "laundry": {
+      "type": "string"
+    },
+    "total_number_of_units": {
+      "type": "integer"
+    },
+    "has_fireplace": {
+      "type": "boolean"
+    },
+    "fireplace_description": {
+      "type": "text"
+    },
+    "cooling": {
+      "type": "text"
+    },
+
+    "bedrooms": {
+      "type": "integer"
+    }
+  }
+}

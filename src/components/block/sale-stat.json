@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_sale_stats",
+  "info": {
+    "displayName": "sale_stat"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

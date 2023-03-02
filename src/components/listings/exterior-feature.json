@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_listings_exterior_features",
+  "info": {
+    "displayName": "exterior_feature"
+  },
+  "options": {},
+  "attributes": {
+    "zoning": {
+      "type": "string"
+    },
+    "has_pool": {
+      "type": "boolean"
+    },
+    "view_description": {
+      "type": "text"
+    },
+    "has_view": {
+      "type": "boolean"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "lot_size_in_sq_ft": {
+      "type": "integer"
+    },
+    "approximate_size": {
+      "type": "integer"
+    },
+    "lot_size_in_acres": {
+      "type": "decimal"
+    },
+    "lot_description": {
+      "type": "text"
+    },
+    "pool_description": {
+      "type": "text"
+    },
+    "parking_spaces": {
+      "type": "integer"
+    },
+    "garage_spaces": {
+      "type": "integer"
+    },
+    "has_garage": {
+      "type": "boolean"
+    },
+    "septic_or_sewer": {
+      "type": "string"
+    },
+    "water_source": {
+      "type": "string"
+    },
+    "is_new_construction": {
+      "type": "boolean"
+    }
+  }
+}

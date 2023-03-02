@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_valuations",
+  "info": {
+    "singularName": "home-valuation",
+    "pluralName": "home-valuations",
+    "displayName": "home-valuation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

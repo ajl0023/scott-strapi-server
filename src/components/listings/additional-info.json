@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_listings_additional_infos",
+  "info": {
+    "displayName": "additional-info"
+  },
+  "options": {},
+  "attributes": {
+    "property_type": {
+      "type": "string"
+    },
+    "property_subtype": {
+      "type": "string"
+    },
+    "year_built": {
+      "type": "integer"
+    },
+    "apn": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "is_aged_restricted": {
+      "type": "boolean"
+    },
+    "hoa_fee": {
+      "type": "integer"
+    },
+    "lot_square_feet_source": {
+      "type": "string"
+    },
+    "list_date": {
+      "type": "date"
+    },
+    "days_on_market": {
+      "type": "integer"
+    }
+  }
+}

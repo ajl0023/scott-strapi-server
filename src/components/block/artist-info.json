@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_block_artist_infos",
+  "info": {
+    "displayName": "artist_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "song_name": {
+      "type": "string"
+    },
+    "Instrumentation": {
+      "type": "string"
+    }
+  }
+}

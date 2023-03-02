@@ -20,11 +20,6 @@
         "audios"
       ]
     },
-    "contact_info": {
-      "type": "component",
-      "repeatable": false,
-      "component": "block.agent-info"
-    },
     "form_photo": {
       "type": "media",
       "multiple": false,
@@ -56,14 +51,20 @@
       ]
     },
     "copyright_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "profile_informations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::profile-information.profile-information"
     }
   }
 }

@@ -27,6 +27,11 @@
         "videos",
         "audios"
       ]
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
     }
   }
 }

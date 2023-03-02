@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_follow_mes",
+  "info": {
+    "displayName": "FollowMe"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "instagram_url": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::profile-information.profile-information"
+    }
+  }
+}

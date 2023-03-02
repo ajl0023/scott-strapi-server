@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_contact_bars",
+  "info": {
+    "displayName": "contact_bar"
+  },
+  "options": {},
+  "attributes": {
+    "profile_informations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::profile-information.profile-information"
+    }
+  }
+}

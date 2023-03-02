@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_listings_location_infos",
+  "info": {
+    "displayName": "location_info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "county": {
+      "type": "string"
+    },
+    "builder_tract_code": {
+      "type": "string"
+    },
+    "mls_area": {
+      "type": "string"
+    },
+    "community": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "Directions": {
+      "type": "text"
+    },
+    "scool_district": {
+      "type": "string"
+    },
+    "address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": false,
+      "component": "listings.address"
+    }
+  }
+}
