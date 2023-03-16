@@ -28,13 +28,10 @@
         "audios"
       ]
     },
-    "name": {
-      "type": "string"
+    "song_description": {
+      "type": "text"
     },
-    "song_name": {
-      "type": "string"
-    },
-    "Instrumentation": {
+    "link": {
       "type": "string"
     }
   }

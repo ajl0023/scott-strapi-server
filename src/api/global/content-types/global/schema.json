@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "navbar": {
-      "type": "component",
-      "repeatable": true,
-      "component": "block.nav-buttons"
-    },
     "footer": {
       "type": "component",
       "repeatable": false,
@@ -53,6 +48,60 @@
         "videos",
         "audios"
       ]
+    },
+    "sj_black": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sj_white": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SelectOplions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.nav-buttons"
+    },
+    "navbar": {
+      "displayName": "navbar",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.navbar"
+    },
+    "de_logo_black": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "de_logo_white": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

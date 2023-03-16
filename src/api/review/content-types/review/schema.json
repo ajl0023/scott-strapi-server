@@ -28,7 +28,7 @@
       "type": "email",
       "required": false
     },
-    "review": {
+    "rating": {
       "type": "enumeration",
       "enum": [
         "stars - 1",
@@ -43,10 +43,6 @@
       "type": "boolean",
       "required": true,
       "default": true
-    },
-    "created_on": {
-      "type": "datetime",
-      "required": true
     }
   }
 }
