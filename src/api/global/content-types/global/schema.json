@@ -38,17 +38,6 @@
       "relation": "oneToMany",
       "target": "api::profile-information.profile-information"
     },
-    "navbar_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "sj_black": {
       "type": "media",
       "multiple": false,
@@ -94,14 +83,15 @@
       ]
     },
     "de_logo_white": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

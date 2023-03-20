@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::page-parts.sub-header",
+  "value": {
+    "uid": "page-parts.sub-header",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "main_header",
+      "defaultSortBy": "main_header",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "main_header": {
+        "edit": {
+          "label": "main_header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "main_header",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "main_header"
+      ],
+      "edit": [
+        [
+          {
+            "name": "main_header",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

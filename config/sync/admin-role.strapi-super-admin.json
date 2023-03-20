@@ -1,0 +1,2620 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::accepting-an-offer.accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::accepting-an-offer.accepting-an-offer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::accepting-an-offer.accepting-an-offer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::accepting-an-offer.accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::accepting-an-offer.accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::awards-won.awards-won",
+      "properties": {
+        "fields": [
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::awards-won.awards-won",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::awards-won.awards-won",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::awards-won.awards-won",
+      "properties": {
+        "fields": [
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::awards-won.awards-won",
+      "properties": {
+        "fields": [
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-choose-a-real-estate-agent.buyers-choose-a-real-estate-agent",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-choose-a-real-estate-agent.buyers-choose-a-real-estate-agent",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-choose-a-real-estate-agent.buyers-choose-a-real-estate-agent",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-choose-a-real-estate-agent.buyers-choose-a-real-estate-agent",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-choose-a-real-estate-agent.buyers-choose-a-real-estate-agent",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-deciding-to-buy.buyers-deciding-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-deciding-to-buy.buyers-deciding-to-buy",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-deciding-to-buy.buyers-deciding-to-buy",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-deciding-to-buy.buyers-deciding-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-deciding-to-buy.buyers-deciding-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-escrow-inspections-and-appraisal.buyers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-escrow-inspections-and-appraisal.buyers-escrow-inspections-and-appraisal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-escrow-inspections-and-appraisal.buyers-escrow-inspections-and-appraisal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-escrow-inspections-and-appraisal.buyers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-escrow-inspections-and-appraisal.buyers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-moving-in.buyers-moving-in",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-moving-in.buyers-moving-in",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-moving-in.buyers-moving-in",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-moving-in.buyers-moving-in",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-moving-in.buyers-moving-in",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-preparing-to-buy.buyers-preparing-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-preparing-to-buy.buyers-preparing-to-buy",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-preparing-to-buy.buyers-preparing-to-buy",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-preparing-to-buy.buyers-preparing-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-preparing-to-buy.buyers-preparing-to-buy",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::buyers-time-to-go-shopping.buyers-time-to-go-shopping",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::buyers-time-to-go-shopping.buyers-time-to-go-shopping",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::buyers-time-to-go-shopping.buyers-time-to-go-shopping",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::buyers-time-to-go-shopping.buyers-time-to-go-shopping",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::buyers-time-to-go-shopping.buyers-time-to-go-shopping",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::category-media-relation.category-media-relation",
+      "properties": {
+        "fields": [
+          "pholder"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::category-media-relation.category-media-relation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::category-media-relation.category-media-relation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::category-media-relation.category-media-relation",
+      "properties": {
+        "fields": [
+          "pholder"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::category-media-relation.category-media-relation",
+      "properties": {
+        "fields": [
+          "pholder"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::concierge.concierge",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::concierge.concierge",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::concierge.concierge",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::concierge.concierge",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::concierge.concierge",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact-us.contact-us",
+      "properties": {
+        "fields": [
+          "profile_informations",
+          "logo",
+          "artist_info.image",
+          "artist_info.logo",
+          "artist_info.song_description",
+          "artist_info.link",
+          "intro_text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact-us.contact-us",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact-us.contact-us",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact-us.contact-us",
+      "properties": {
+        "fields": [
+          "profile_informations",
+          "logo",
+          "artist_info.image",
+          "artist_info.logo",
+          "artist_info.song_description",
+          "artist_info.link",
+          "intro_text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact-us.contact-us",
+      "properties": {
+        "fields": [
+          "profile_informations",
+          "logo",
+          "artist_info.image",
+          "artist_info.logo",
+          "artist_info.song_description",
+          "artist_info.link",
+          "intro_text"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::douglas-elliman.douglas-elliman",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::douglas-elliman.douglas-elliman",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::douglas-elliman.douglas-elliman",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::douglas-elliman.douglas-elliman",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::douglas-elliman.douglas-elliman",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::global-exposure-2.global-exposure-2",
+      "properties": {
+        "fields": [
+          "main_text",
+          "media_logo",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::global-exposure-2.global-exposure-2",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::global-exposure-2.global-exposure-2",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::global-exposure-2.global-exposure-2",
+      "properties": {
+        "fields": [
+          "main_text",
+          "media_logo",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::global-exposure-2.global-exposure-2",
+      "properties": {
+        "fields": [
+          "main_text",
+          "media_logo",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::global-exposure.global-exposure",
+      "properties": {
+        "fields": [
+          "content",
+          "links.link",
+          "links.label",
+          "main_image",
+          "header",
+          "image_link.image",
+          "image_link.link",
+          "image_link.is_external_link",
+          "image_link.is_file",
+          "image_link.label",
+          "media_logo",
+          "media_text",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::global-exposure.global-exposure",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::global-exposure.global-exposure",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::global-exposure.global-exposure",
+      "properties": {
+        "fields": [
+          "content",
+          "links.link",
+          "links.label",
+          "main_image",
+          "header",
+          "image_link.image",
+          "image_link.link",
+          "image_link.is_external_link",
+          "image_link.is_file",
+          "image_link.label",
+          "media_logo",
+          "media_text",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::global-exposure.global-exposure",
+      "properties": {
+        "fields": [
+          "content",
+          "links.link",
+          "links.label",
+          "main_image",
+          "header",
+          "image_link.image",
+          "image_link.link",
+          "image_link.is_external_link",
+          "image_link.is_file",
+          "image_link.label",
+          "media_logo",
+          "media_text",
+          "video_collection.label",
+          "video_collection.image",
+          "video_collection.url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "footer.disclaimer",
+          "footer.partner_logos",
+          "footer.form_photo",
+          "footer.market_areas.label",
+          "footer.copyright",
+          "footer.eh_logo",
+          "footer.copyright_photo",
+          "footer.profile_informations",
+          "song_file",
+          "contact_bar_items",
+          "mobile_top_bar",
+          "navbar_image",
+          "sj_black",
+          "sj_white",
+          "SelectOplions.label",
+          "SelectOplions.nav_options.label",
+          "SelectOplions.nav_options.link",
+          "SelectOplions.nav_options.is_external_link",
+          "SelectOplions.link",
+          "navbar.bg_image",
+          "navbar.name",
+          "de_logo_black",
+          "de_logo_white"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::global.global",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::global.global",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "footer.disclaimer",
+          "footer.partner_logos",
+          "footer.form_photo",
+          "footer.market_areas.label",
+          "footer.copyright",
+          "footer.eh_logo",
+          "footer.copyright_photo",
+          "footer.profile_informations",
+          "song_file",
+          "contact_bar_items",
+          "mobile_top_bar",
+          "navbar_image",
+          "sj_black",
+          "sj_white",
+          "SelectOplions.label",
+          "SelectOplions.nav_options.label",
+          "SelectOplions.nav_options.link",
+          "SelectOplions.nav_options.is_external_link",
+          "SelectOplions.link",
+          "navbar.bg_image",
+          "navbar.name",
+          "de_logo_black",
+          "de_logo_white"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::global.global",
+      "properties": {
+        "fields": [
+          "footer.disclaimer",
+          "footer.partner_logos",
+          "footer.form_photo",
+          "footer.market_areas.label",
+          "footer.copyright",
+          "footer.eh_logo",
+          "footer.copyright_photo",
+          "footer.profile_informations",
+          "song_file",
+          "contact_bar_items",
+          "mobile_top_bar",
+          "navbar_image",
+          "sj_black",
+          "sj_white",
+          "SelectOplions.label",
+          "SelectOplions.nav_options.label",
+          "SelectOplions.nav_options.link",
+          "SelectOplions.nav_options.is_external_link",
+          "SelectOplions.link",
+          "navbar.bg_image",
+          "navbar.name",
+          "de_logo_black",
+          "de_logo_white"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "home_agent.agent_photo",
+          "home_agent.header",
+          "home_agent.paragraph.text",
+          "home_agent.background_photo",
+          "global_listings.listing.image",
+          "global_listings.listing.link",
+          "global_listings.listing.is_external_link",
+          "global_listings.listing.is_file",
+          "global_listings.listing.label",
+          "sales_statistics.background_photo",
+          "sales_statistics.stats.label",
+          "sales_statistics.stats.value",
+          "testimonial.scott_photo",
+          "testimonial.bg_photo",
+          "testimonial.reviews",
+          "media_relations.background_photo",
+          "media_relations.content",
+          "media_relations.media_posts",
+          "follow_me.image",
+          "follow_me.instagram_url",
+          "real_deal_news.background_image",
+          "real_deal_news.logo",
+          "real_deal_news.text",
+          "real_deal_news.link",
+          "future_projects.description",
+          "future_projects.image",
+          "future_projects.link",
+          "listings",
+          "services",
+          "image_slider.image",
+          "image_slider.video_url",
+          "image_slider.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-page.home-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-page.home-page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "home_agent.agent_photo",
+          "home_agent.header",
+          "home_agent.paragraph.text",
+          "home_agent.background_photo",
+          "global_listings.listing.image",
+          "global_listings.listing.link",
+          "global_listings.listing.is_external_link",
+          "global_listings.listing.is_file",
+          "global_listings.listing.label",
+          "sales_statistics.background_photo",
+          "sales_statistics.stats.label",
+          "sales_statistics.stats.value",
+          "testimonial.scott_photo",
+          "testimonial.bg_photo",
+          "testimonial.reviews",
+          "media_relations.background_photo",
+          "media_relations.content",
+          "media_relations.media_posts",
+          "follow_me.image",
+          "follow_me.instagram_url",
+          "real_deal_news.background_image",
+          "real_deal_news.logo",
+          "real_deal_news.text",
+          "real_deal_news.link",
+          "future_projects.description",
+          "future_projects.image",
+          "future_projects.link",
+          "listings",
+          "services",
+          "image_slider.image",
+          "image_slider.video_url",
+          "image_slider.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-page.home-page",
+      "properties": {
+        "fields": [
+          "home_agent.agent_photo",
+          "home_agent.header",
+          "home_agent.paragraph.text",
+          "home_agent.background_photo",
+          "global_listings.listing.image",
+          "global_listings.listing.link",
+          "global_listings.listing.is_external_link",
+          "global_listings.listing.is_file",
+          "global_listings.listing.label",
+          "sales_statistics.background_photo",
+          "sales_statistics.stats.label",
+          "sales_statistics.stats.value",
+          "testimonial.scott_photo",
+          "testimonial.bg_photo",
+          "testimonial.reviews",
+          "media_relations.background_photo",
+          "media_relations.content",
+          "media_relations.media_posts",
+          "follow_me.image",
+          "follow_me.instagram_url",
+          "real_deal_news.background_image",
+          "real_deal_news.logo",
+          "real_deal_news.text",
+          "real_deal_news.link",
+          "future_projects.description",
+          "future_projects.image",
+          "future_projects.link",
+          "listings",
+          "services",
+          "image_slider.image",
+          "image_slider.video_url",
+          "image_slider.type"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-valuation.home-valuation",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-valuation.home-valuation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-valuation.home-valuation",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-valuation.home-valuation",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-valuation.home-valuation",
+      "properties": {
+        "fields": [
+          "test"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::listing-property.listing-property",
+      "properties": {
+        "fields": [
+          "property_type",
+          "listing_id",
+          "images",
+          "thumbnail",
+          "price",
+          "description",
+          "address",
+          "exterior_features.zoning",
+          "exterior_features.has_pool",
+          "exterior_features.view_description",
+          "exterior_features.has_view",
+          "exterior_features.dimensions",
+          "exterior_features.lot_size_in_sq_ft",
+          "exterior_features.approximate_size",
+          "exterior_features.lot_size_in_acres",
+          "exterior_features.lot_description",
+          "exterior_features.pool_description",
+          "exterior_features.parking_spaces",
+          "exterior_features.garage_spaces",
+          "exterior_features.has_garage",
+          "exterior_features.septic_or_sewer",
+          "exterior_features.water_source",
+          "exterior_features.is_new_construction",
+          "interior_features.stories",
+          "interior_features.half_baths",
+          "interior_features.has_basement",
+          "interior_features.common_walls",
+          "interior_features.full_baths",
+          "interior_features.laundry",
+          "interior_features.total_number_of_units",
+          "interior_features.has_fireplace",
+          "interior_features.fireplace_description",
+          "interior_features.cooling",
+          "interior_features.bedrooms",
+          "additional_info.property_type",
+          "additional_info.property_subtype",
+          "additional_info.year_built",
+          "additional_info.apn",
+          "additional_info.status",
+          "additional_info.is_aged_restricted",
+          "additional_info.hoa_fee",
+          "additional_info.lot_square_feet_source",
+          "additional_info.list_date",
+          "additional_info.days_on_market",
+          "location_info.county",
+          "location_info.builder_tract_code",
+          "location_info.mls_area",
+          "location_info.community",
+          "location_info.latitude",
+          "location_info.longitude",
+          "location_info.Directions",
+          "location_info.scool_district",
+          "location_info.address.street_address",
+          "location_info.address.city",
+          "location_info.address.state_province",
+          "location_info.address.postal_code",
+          "location_info.address.country",
+          "list_by"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::listing-property.listing-property",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::listing-property.listing-property",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::listing-property.listing-property",
+      "properties": {
+        "fields": [
+          "property_type",
+          "listing_id",
+          "images",
+          "thumbnail",
+          "price",
+          "description",
+          "address",
+          "exterior_features.zoning",
+          "exterior_features.has_pool",
+          "exterior_features.view_description",
+          "exterior_features.has_view",
+          "exterior_features.dimensions",
+          "exterior_features.lot_size_in_sq_ft",
+          "exterior_features.approximate_size",
+          "exterior_features.lot_size_in_acres",
+          "exterior_features.lot_description",
+          "exterior_features.pool_description",
+          "exterior_features.parking_spaces",
+          "exterior_features.garage_spaces",
+          "exterior_features.has_garage",
+          "exterior_features.septic_or_sewer",
+          "exterior_features.water_source",
+          "exterior_features.is_new_construction",
+          "interior_features.stories",
+          "interior_features.half_baths",
+          "interior_features.has_basement",
+          "interior_features.common_walls",
+          "interior_features.full_baths",
+          "interior_features.laundry",
+          "interior_features.total_number_of_units",
+          "interior_features.has_fireplace",
+          "interior_features.fireplace_description",
+          "interior_features.cooling",
+          "interior_features.bedrooms",
+          "additional_info.property_type",
+          "additional_info.property_subtype",
+          "additional_info.year_built",
+          "additional_info.apn",
+          "additional_info.status",
+          "additional_info.is_aged_restricted",
+          "additional_info.hoa_fee",
+          "additional_info.lot_square_feet_source",
+          "additional_info.list_date",
+          "additional_info.days_on_market",
+          "location_info.county",
+          "location_info.builder_tract_code",
+          "location_info.mls_area",
+          "location_info.community",
+          "location_info.latitude",
+          "location_info.longitude",
+          "location_info.Directions",
+          "location_info.scool_district",
+          "location_info.address.street_address",
+          "location_info.address.city",
+          "location_info.address.state_province",
+          "location_info.address.postal_code",
+          "location_info.address.country",
+          "list_by"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::listing-property.listing-property",
+      "properties": {
+        "fields": [
+          "property_type",
+          "listing_id",
+          "images",
+          "thumbnail",
+          "price",
+          "description",
+          "address",
+          "exterior_features.zoning",
+          "exterior_features.has_pool",
+          "exterior_features.view_description",
+          "exterior_features.has_view",
+          "exterior_features.dimensions",
+          "exterior_features.lot_size_in_sq_ft",
+          "exterior_features.approximate_size",
+          "exterior_features.lot_size_in_acres",
+          "exterior_features.lot_description",
+          "exterior_features.pool_description",
+          "exterior_features.parking_spaces",
+          "exterior_features.garage_spaces",
+          "exterior_features.has_garage",
+          "exterior_features.septic_or_sewer",
+          "exterior_features.water_source",
+          "exterior_features.is_new_construction",
+          "interior_features.stories",
+          "interior_features.half_baths",
+          "interior_features.has_basement",
+          "interior_features.common_walls",
+          "interior_features.full_baths",
+          "interior_features.laundry",
+          "interior_features.total_number_of_units",
+          "interior_features.has_fireplace",
+          "interior_features.fireplace_description",
+          "interior_features.cooling",
+          "interior_features.bedrooms",
+          "additional_info.property_type",
+          "additional_info.property_subtype",
+          "additional_info.year_built",
+          "additional_info.apn",
+          "additional_info.status",
+          "additional_info.is_aged_restricted",
+          "additional_info.hoa_fee",
+          "additional_info.lot_square_feet_source",
+          "additional_info.list_date",
+          "additional_info.days_on_market",
+          "location_info.county",
+          "location_info.builder_tract_code",
+          "location_info.mls_area",
+          "location_info.community",
+          "location_info.latitude",
+          "location_info.longitude",
+          "location_info.Directions",
+          "location_info.scool_district",
+          "location_info.address.street_address",
+          "location_info.address.city",
+          "location_info.address.state_province",
+          "location_info.address.postal_code",
+          "location_info.address.country",
+          "list_by"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::local-exposure.local-exposure",
+      "properties": {
+        "fields": [
+          "intro_image",
+          "intro_text",
+          "press.image",
+          "press.label",
+          "intro_press_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::local-exposure.local-exposure",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::local-exposure.local-exposure",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::local-exposure.local-exposure",
+      "properties": {
+        "fields": [
+          "intro_image",
+          "intro_text",
+          "press.image",
+          "press.label",
+          "intro_press_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::local-exposure.local-exposure",
+      "properties": {
+        "fields": [
+          "intro_image",
+          "intro_text",
+          "press.image",
+          "press.label",
+          "intro_press_image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::market-report.market-report",
+      "properties": {
+        "fields": [
+          "description",
+          "intro_text",
+          "market_report.image",
+          "market_report.link",
+          "market_report.is_external_link",
+          "market_report.is_file",
+          "market_report.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::market-report.market-report",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::market-report.market-report",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::market-report.market-report",
+      "properties": {
+        "fields": [
+          "description",
+          "intro_text",
+          "market_report.image",
+          "market_report.link",
+          "market_report.is_external_link",
+          "market_report.is_file",
+          "market_report.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::market-report.market-report",
+      "properties": {
+        "fields": [
+          "description",
+          "intro_text",
+          "market_report.image",
+          "market_report.link",
+          "market_report.is_external_link",
+          "market_report.is_file",
+          "market_report.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::marketing.marketing",
+      "properties": {
+        "fields": [
+          "content",
+          "navigation_menu.bg_image",
+          "navigation_menu.icon",
+          "navigation_menu.link",
+          "navigation_menu.label",
+          "links.link",
+          "links.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::marketing.marketing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::marketing.marketing",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::marketing.marketing",
+      "properties": {
+        "fields": [
+          "content",
+          "navigation_menu.bg_image",
+          "navigation_menu.icon",
+          "navigation_menu.link",
+          "navigation_menu.label",
+          "links.link",
+          "links.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::marketing.marketing",
+      "properties": {
+        "fields": [
+          "content",
+          "navigation_menu.bg_image",
+          "navigation_menu.icon",
+          "navigation_menu.link",
+          "navigation_menu.label",
+          "links.link",
+          "links.label"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::media-post.media-post",
+      "properties": {
+        "fields": [
+          "image",
+          "slug",
+          "is_external_link",
+          "title",
+          "created_on",
+          "link",
+          "page_parts"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::media-post.media-post",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::media-post.media-post",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::media-post.media-post",
+      "properties": {
+        "fields": [
+          "image",
+          "slug",
+          "is_external_link",
+          "title",
+          "created_on",
+          "link",
+          "page_parts"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::media-post.media-post",
+      "properties": {
+        "fields": [
+          "image",
+          "slug",
+          "is_external_link",
+          "title",
+          "created_on",
+          "link",
+          "page_parts"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::neighborhood-guide.neighborhood-guide",
+      "properties": {
+        "fields": [
+          "counties.county_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::neighborhood-guide.neighborhood-guide",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::neighborhood-guide.neighborhood-guide",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::neighborhood-guide.neighborhood-guide",
+      "properties": {
+        "fields": [
+          "counties.county_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::neighborhood-guide.neighborhood-guide",
+      "properties": {
+        "fields": [
+          "counties.county_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::new-development.new-development",
+      "properties": {
+        "fields": [
+          "intro_text",
+          "intro_image",
+          "developments.property_details.address",
+          "developments.property_details.property_images",
+          "developments.property_details.youtube_url",
+          "developments.partner_details.partner_logo",
+          "developments.partner_details.partner_link",
+          "developments.development_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::new-development.new-development",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::new-development.new-development",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::new-development.new-development",
+      "properties": {
+        "fields": [
+          "intro_text",
+          "intro_image",
+          "developments.property_details.address",
+          "developments.property_details.property_images",
+          "developments.property_details.youtube_url",
+          "developments.partner_details.partner_logo",
+          "developments.partner_details.partner_link",
+          "developments.development_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::new-development.new-development",
+      "properties": {
+        "fields": [
+          "intro_text",
+          "intro_image",
+          "developments.property_details.address",
+          "developments.property_details.property_images",
+          "developments.property_details.youtube_url",
+          "developments.partner_details.partner_logo",
+          "developments.partner_details.partner_link",
+          "developments.development_name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::page-layout.page-layout",
+      "properties": {
+        "fields": [
+          "menu_bar.agent_image",
+          "menu_bar.profile_informations",
+          "menu_bar.services"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::page-layout.page-layout",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::page-layout.page-layout",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::page-layout.page-layout",
+      "properties": {
+        "fields": [
+          "menu_bar.agent_image",
+          "menu_bar.profile_informations",
+          "menu_bar.services"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::page-layout.page-layout",
+      "properties": {
+        "fields": [
+          "menu_bar.agent_image",
+          "menu_bar.profile_informations",
+          "menu_bar.services"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "title",
+          "slug",
+          "api_url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::page.page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::page.page",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "title",
+          "slug",
+          "api_url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::page.page",
+      "properties": {
+        "fields": [
+          "title",
+          "slug",
+          "api_url"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::profile-information.profile-information",
+      "properties": {
+        "fields": [
+          "category",
+          "contact_info_type",
+          "contact_info"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::profile-information.profile-information",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::profile-information.profile-information",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::profile-information.profile-information",
+      "properties": {
+        "fields": [
+          "category",
+          "contact_info_type",
+          "contact_info"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::profile-information.profile-information",
+      "properties": {
+        "fields": [
+          "category",
+          "contact_info_type",
+          "contact_info"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::review.review",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "title",
+          "email",
+          "rating",
+          "publish"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::review.review",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::review.review",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::review.review",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "title",
+          "email",
+          "rating",
+          "publish"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::review.review",
+      "properties": {
+        "fields": [
+          "name",
+          "content",
+          "title",
+          "email",
+          "rating",
+          "publish"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::scott-jame.scott-jame",
+      "properties": {
+        "fields": [
+          "content",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::scott-jame.scott-jame",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::scott-jame.scott-jame",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::scott-jame.scott-jame",
+      "properties": {
+        "fields": [
+          "content",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::scott-jame.scott-jame",
+      "properties": {
+        "fields": [
+          "content",
+          "image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-accepting-an-offer.sellers-accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-accepting-an-offer.sellers-accepting-an-offer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-accepting-an-offer.sellers-accepting-an-offer",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-accepting-an-offer.sellers-accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-accepting-an-offer.sellers-accepting-an-offer",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-close-of-escrow.sellers-close-of-escrow",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-close-of-escrow.sellers-close-of-escrow",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-close-of-escrow.sellers-close-of-escrow",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-close-of-escrow.sellers-close-of-escrow",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-close-of-escrow.sellers-close-of-escrow",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-decide-to-sell.sellers-decide-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-decide-to-sell.sellers-decide-to-sell",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-decide-to-sell.sellers-decide-to-sell",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-decide-to-sell.sellers-decide-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-decide-to-sell.sellers-decide-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-escrow-inspections-and-appraisal.sellers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-escrow-inspections-and-appraisal.sellers-escrow-inspections-and-appraisal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-escrow-inspections-and-appraisal.sellers-escrow-inspections-and-appraisal",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-escrow-inspections-and-appraisal.sellers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-escrow-inspections-and-appraisal.sellers-escrow-inspections-and-appraisal",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-prepare-to-sell.sellers-prepare-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-prepare-to-sell.sellers-prepare-to-sell",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-prepare-to-sell.sellers-prepare-to-sell",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-prepare-to-sell.sellers-prepare-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-prepare-to-sell.sellers-prepare-to-sell",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::sellers-select-an-agent-and-price.sellers-select-an-agent-and-price",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::sellers-select-an-agent-and-price.sellers-select-an-agent-and-price",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::sellers-select-an-agent-and-price.sellers-select-an-agent-and-price",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::sellers-select-an-agent-and-price.sellers-select-an-agent-and-price",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::sellers-select-an-agent-and-price.sellers-select-an-agent-and-price",
+      "properties": {
+        "fields": [
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "image",
+          "label",
+          "link",
+          "is_external_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::service.service",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "image",
+          "label",
+          "link",
+          "is_external_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "image",
+          "label",
+          "link",
+          "is_external_link"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::what-our-clients-are-saying.what-our-clients-are-saying",
+      "properties": {
+        "fields": [
+          "reviews"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::what-our-clients-are-saying.what-our-clients-are-saying",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::what-our-clients-are-saying.what-our-clients-are-saying",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::what-our-clients-are-saying.what-our-clients-are-saying",
+      "properties": {
+        "fields": [
+          "reviews"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::what-our-clients-are-saying.what-our-clients-are-saying",
+      "properties": {
+        "fields": [
+          "reviews"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::transfer.tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::ezforms.submission",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::navigation.audience",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::navigation.audience",
+      "properties": {
+        "fields": [
+          "name",
+          "key"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::navigation.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::navigation.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

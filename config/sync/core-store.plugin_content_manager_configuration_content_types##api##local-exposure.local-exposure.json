@@ -1,0 +1,144 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::local-exposure.local-exposure",
+  "value": {
+    "uid": "api::local-exposure.local-exposure",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "intro_image": {
+        "edit": {
+          "label": "intro_image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "intro_image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "intro_text": {
+        "edit": {
+          "label": "intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "intro_text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "press": {
+        "edit": {
+          "label": "press",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "press",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "intro_press_image": {
+        "edit": {
+          "label": "intro_press_image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "intro_press_image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "intro_image",
+            "size": 6
+          },
+          {
+            "name": "intro_press_image",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "intro_text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "press",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "intro_image",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,249 @@
+{
+  "key": "plugin_content_manager_configuration_components::listings.interior-features",
+  "value": {
+    "uid": "listings.interior-features",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "laundry",
+      "defaultSortBy": "laundry",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "stories": {
+        "edit": {
+          "label": "stories",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stories",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "half_baths": {
+        "edit": {
+          "label": "half_baths",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "half_baths",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "has_basement": {
+        "edit": {
+          "label": "has_basement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "has_basement",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "common_walls": {
+        "edit": {
+          "label": "common_walls",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "common_walls",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "full_baths": {
+        "edit": {
+          "label": "full_baths",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "full_baths",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "laundry": {
+        "edit": {
+          "label": "laundry",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "laundry",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "total_number_of_units": {
+        "edit": {
+          "label": "total_number_of_units",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "total_number_of_units",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "has_fireplace": {
+        "edit": {
+          "label": "has_fireplace",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "has_fireplace",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fireplace_description": {
+        "edit": {
+          "label": "fireplace_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fireplace_description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cooling": {
+        "edit": {
+          "label": "cooling",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cooling",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bedrooms": {
+        "edit": {
+          "label": "bedrooms",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bedrooms",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "stories",
+        "half_baths",
+        "has_basement"
+      ],
+      "edit": [
+        [
+          {
+            "name": "stories",
+            "size": 4
+          },
+          {
+            "name": "half_baths",
+            "size": 4
+          },
+          {
+            "name": "has_basement",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "common_walls",
+            "size": 4
+          },
+          {
+            "name": "full_baths",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "laundry",
+            "size": 6
+          },
+          {
+            "name": "total_number_of_units",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "has_fireplace",
+            "size": 4
+          },
+          {
+            "name": "fireplace_description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cooling",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "bedrooms",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

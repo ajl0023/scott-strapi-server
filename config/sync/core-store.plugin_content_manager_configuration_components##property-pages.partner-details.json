@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::property-pages.partner-details",
+  "value": {
+    "uid": "property-pages.partner-details",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "partner_link",
+      "defaultSortBy": "partner_link",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner_logo": {
+        "edit": {
+          "label": "partner_logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "partner_logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner_link": {
+        "edit": {
+          "label": "partner_link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "partner_link",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "partner_logo",
+        "partner_link"
+      ],
+      "edit": [
+        [
+          {
+            "name": "partner_logo",
+            "size": 6
+          },
+          {
+            "name": "partner_link",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

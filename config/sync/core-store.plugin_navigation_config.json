@@ -1,0 +1,34 @@
+{
+  "key": "plugin_navigation_config",
+  "value": {
+    "additionalFields": [],
+    "contentTypes": [
+      "api::global.global"
+    ],
+    "contentTypesNameFields": {
+      "default": [
+        "title",
+        "subject",
+        "name"
+      ]
+    },
+    "contentTypesPopulate": {
+      "api::global.global": [
+        "test"
+      ]
+    },
+    "allowedLevels": 2,
+    "gql": {
+      "navigationItemRelated": [
+        "Global"
+      ]
+    },
+    "i18nEnabled": false,
+    "pruneObsoleteI18nNavigations": false,
+    "pathDefaultFields": {},
+    "cascadeMenuAttached": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

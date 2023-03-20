@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::block.testimonial-home-page",
+  "value": {
+    "uid": "block.testimonial-home-page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "scott_photo": {
+        "edit": {
+          "label": "scott_photo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "scott_photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bg_photo": {
+        "edit": {
+          "label": "bg_photo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bg_photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "reviews": {
+        "edit": {
+          "label": "reviews",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "reviews",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "scott_photo",
+        "bg_photo",
+        "reviews"
+      ],
+      "edit": [
+        [
+          {
+            "name": "scott_photo",
+            "size": 6
+          },
+          {
+            "name": "bg_photo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "reviews",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

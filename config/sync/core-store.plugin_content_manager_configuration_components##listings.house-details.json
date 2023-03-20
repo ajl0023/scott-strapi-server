@@ -1,0 +1,115 @@
+{
+  "key": "plugin_content_manager_configuration_components::listings.house-details",
+  "value": {
+    "uid": "listings.house-details",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "beds": {
+        "edit": {
+          "label": "beds",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "beds",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bath_half": {
+        "edit": {
+          "label": "bath_half",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bath_half",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bath_full": {
+        "edit": {
+          "label": "bath_full",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bath_full",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "sqft": {
+        "edit": {
+          "label": "sqft",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sqft",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "beds",
+        "bath_half",
+        "bath_full"
+      ],
+      "edit": [
+        [
+          {
+            "name": "beds",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "sqft",
+            "size": 4
+          },
+          {
+            "name": "bath_half",
+            "size": 4
+          },
+          {
+            "name": "bath_full",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

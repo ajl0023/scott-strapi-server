@@ -1,0 +1,145 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::contact-us.contact-us",
+  "value": {
+    "uid": "api::contact-us.contact-us",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "profile_informations": {
+        "edit": {
+          "label": "profile_informations",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "contact_info_type"
+        },
+        "list": {
+          "label": "profile_informations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "artist_info": {
+        "edit": {
+          "label": "artist_info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "artist_info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "intro_text": {
+        "edit": {
+          "label": "intro_text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "intro_text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "intro_text",
+            "size": 6
+          },
+          {
+            "name": "profile_informations",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "artist_info",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "profile_informations",
+        "createdAt",
+        "logo"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,343 @@
+{
+  "key": "plugin_content_manager_configuration_components::listings.exterior-feature",
+  "value": {
+    "uid": "listings.exterior-feature",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "zoning",
+      "defaultSortBy": "zoning",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "zoning": {
+        "edit": {
+          "label": "zoning",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "zoning",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "has_pool": {
+        "edit": {
+          "label": "has_pool",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "has_pool",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "view_description": {
+        "edit": {
+          "label": "view_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "view_description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "has_view": {
+        "edit": {
+          "label": "has_view",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "has_view",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "dimensions": {
+        "edit": {
+          "label": "dimensions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "dimensions",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lot_size_in_sq_ft": {
+        "edit": {
+          "label": "lot_size_in_sq_ft",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lot_size_in_sq_ft",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "approximate_size": {
+        "edit": {
+          "label": "approximate_size",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "approximate_size",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lot_size_in_acres": {
+        "edit": {
+          "label": "lot_size_in_acres",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lot_size_in_acres",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "lot_description": {
+        "edit": {
+          "label": "lot_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "lot_description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "pool_description": {
+        "edit": {
+          "label": "pool_description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "pool_description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "parking_spaces": {
+        "edit": {
+          "label": "parking_spaces",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "parking_spaces",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "garage_spaces": {
+        "edit": {
+          "label": "garage_spaces",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "garage_spaces",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "has_garage": {
+        "edit": {
+          "label": "has_garage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "has_garage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "septic_or_sewer": {
+        "edit": {
+          "label": "septic_or_sewer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "septic_or_sewer",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "water_source": {
+        "edit": {
+          "label": "water_source",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "water_source",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "is_new_construction": {
+        "edit": {
+          "label": "is_new_construction",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "is_new_construction",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "zoning",
+        "has_pool",
+        "view_description"
+      ],
+      "edit": [
+        [
+          {
+            "name": "zoning",
+            "size": 6
+          },
+          {
+            "name": "has_pool",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "view_description",
+            "size": 6
+          },
+          {
+            "name": "has_view",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "dimensions",
+            "size": 6
+          },
+          {
+            "name": "lot_size_in_sq_ft",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "approximate_size",
+            "size": 4
+          },
+          {
+            "name": "lot_size_in_acres",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "lot_description",
+            "size": 6
+          },
+          {
+            "name": "pool_description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "parking_spaces",
+            "size": 4
+          },
+          {
+            "name": "garage_spaces",
+            "size": 4
+          },
+          {
+            "name": "has_garage",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "septic_or_sewer",
+            "size": 6
+          },
+          {
+            "name": "water_source",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "is_new_construction",
+            "size": 4
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

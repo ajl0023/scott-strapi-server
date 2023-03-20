@@ -1,0 +1,282 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::global.global",
+  "value": {
+    "uid": "api::global.global",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "footer": {
+        "edit": {
+          "label": "footer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footer",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "song_file": {
+        "edit": {
+          "label": "song_file",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "song_file",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contact_bar_items": {
+        "edit": {
+          "label": "contact_bar_items",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "contact_info_type"
+        },
+        "list": {
+          "label": "contact_bar_items",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mobile_top_bar": {
+        "edit": {
+          "label": "mobile_top_bar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "contact_info_type"
+        },
+        "list": {
+          "label": "mobile_top_bar",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navbar_image": {
+        "edit": {
+          "label": "navbar_image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "navbar_image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sj_black": {
+        "edit": {
+          "label": "sj_black",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sj_black",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sj_white": {
+        "edit": {
+          "label": "sj_white",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sj_white",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "SelectOplions": {
+        "edit": {
+          "label": "SelectOplions",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "SelectOplions",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navbar": {
+        "edit": {
+          "label": "navbar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "navbar",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "de_logo_black": {
+        "edit": {
+          "label": "de_logo_black",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "de_logo_black",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "de_logo_white": {
+        "edit": {
+          "label": "de_logo_white",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "de_logo_white",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "navbar"
+      ],
+      "edit": [
+        [
+          {
+            "name": "sj_white",
+            "size": 6
+          },
+          {
+            "name": "sj_black",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "navbar_image",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "song_file",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "mobile_top_bar",
+            "size": 6
+          },
+          {
+            "name": "contact_bar_items",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "footer",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "SelectOplions",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "navbar",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "de_logo_black",
+            "size": 6
+          },
+          {
+            "name": "de_logo_white",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

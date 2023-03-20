@@ -1,0 +1,287 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::home-page.home-page",
+  "value": {
+    "uid": "api::home-page.home-page",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "home_agent": {
+        "edit": {
+          "label": "home_agent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "home_agent",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "global_listings": {
+        "edit": {
+          "label": "global_listings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "global_listings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "sales_statistics": {
+        "edit": {
+          "label": "sales_statistics",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "sales_statistics",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "testimonial": {
+        "edit": {
+          "label": "testimonial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "testimonial",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "media_relations": {
+        "edit": {
+          "label": "media_relations",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "media_relations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "follow_me": {
+        "edit": {
+          "label": "follow_me",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "follow_me",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "real_deal_news": {
+        "edit": {
+          "label": "real_deal_news",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "real_deal_news",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "future_projects": {
+        "edit": {
+          "label": "future_projects",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "future_projects",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "listings": {
+        "edit": {
+          "label": "listings",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "listing_id"
+        },
+        "list": {
+          "label": "listings",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "services": {
+        "edit": {
+          "label": "services",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "label"
+        },
+        "list": {
+          "label": "services",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "image_slider": {
+        "edit": {
+          "label": "image_slider",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image_slider",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "image_slider",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "listings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "home_agent",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "global_listings",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "services",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "sales_statistics",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "testimonial",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "media_relations",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "follow_me",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "real_deal_news",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "future_projects",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

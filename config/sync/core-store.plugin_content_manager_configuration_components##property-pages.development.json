@@ -1,0 +1,99 @@
+{
+  "key": "plugin_content_manager_configuration_components::property-pages.development",
+  "value": {
+    "uid": "property-pages.development",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "development_name",
+      "defaultSortBy": "development_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "property_details": {
+        "edit": {
+          "label": "property_details",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "property_details",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "partner_details": {
+        "edit": {
+          "label": "partner_details",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "partner_details",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "development_name": {
+        "edit": {
+          "label": "development_name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "development_name",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "property_details",
+        "development_name",
+        "partner_details"
+      ],
+      "edit": [
+        [
+          {
+            "name": "property_details",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "development_name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "partner_details",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

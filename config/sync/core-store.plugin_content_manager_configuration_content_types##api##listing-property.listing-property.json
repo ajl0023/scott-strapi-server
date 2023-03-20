@@ -1,0 +1,302 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::listing-property.listing-property",
+  "value": {
+    "uid": "api::listing-property.listing-property",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "property_type": {
+        "edit": {
+          "label": "property_type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "property_type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "listing_id": {
+        "edit": {
+          "label": "listing_id",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "listing_id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "images": {
+        "edit": {
+          "label": "images",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "images",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "thumbnail": {
+        "edit": {
+          "label": "thumbnail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "thumbnail",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "price": {
+        "edit": {
+          "label": "price",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "price",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "address": {
+        "edit": {
+          "label": "address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "exterior_features": {
+        "edit": {
+          "label": "exterior_features",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "exterior_features",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "interior_features": {
+        "edit": {
+          "label": "interior_features",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "interior_features",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "additional_info": {
+        "edit": {
+          "label": "additional_info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "additional_info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "location_info": {
+        "edit": {
+          "label": "location_info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location_info",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "list_by": {
+        "edit": {
+          "label": "list_by",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "list_by",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "property_type",
+            "size": 6
+          },
+          {
+            "name": "listing_id",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "images",
+            "size": 6
+          },
+          {
+            "name": "price",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "thumbnail",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "list_by",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "exterior_features",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "interior_features",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "additional_info",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "location_info",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "property_type",
+        "createdAt",
+        "listing_id"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
