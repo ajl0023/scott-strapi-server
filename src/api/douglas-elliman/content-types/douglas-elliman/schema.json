@@ -4,7 +4,8 @@
   "info": {
     "singularName": "douglas-elliman",
     "pluralName": "douglas-ellimen",
-    "displayName": "douglas-elliman"
+    "displayName": "douglas-elliman",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

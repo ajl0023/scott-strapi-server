@@ -17,7 +17,8 @@
       "enum": [
         "House",
         "Lot",
-        "Multi-Unit Residential"
+        "Multi-Unit Residential",
+        "Rental"
       ],
       "required": true
     },

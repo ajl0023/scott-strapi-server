@@ -1,7 +1,8 @@
 {
   "collectionName": "components_listings_interior_features",
   "info": {
-    "displayName": "interior_features"
+    "displayName": "interior_features",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -35,9 +36,32 @@
     "cooling": {
       "type": "text"
     },
-
     "bedrooms": {
       "type": "integer"
+    },
+    "interior": {
+      "type": "text"
+    },
+    "windows_orsym_doors_description": {
+      "type": "text"
+    },
+    "appliances": {
+      "type": "text"
+    },
+    "has_dining_room": {
+      "type": "boolean"
+    },
+    "floors": {
+      "type": "text"
+    },
+    "has_family_room": {
+      "type": "boolean"
+    },
+    "spa": {
+      "type": "text"
+    },
+    "heating": {
+      "type": "text"
     }
   }
 }

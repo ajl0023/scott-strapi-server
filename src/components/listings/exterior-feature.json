@@ -1,7 +1,8 @@
 {
   "collectionName": "components_listings_exterior_features",
   "info": {
-    "displayName": "exterior_feature"
+    "displayName": "exterior_feature",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -52,6 +53,36 @@
     },
     "is_new_construction": {
       "type": "boolean"
+    },
+    "style": {
+      "type": "string"
+    },
+    "foundation": {
+      "type": "string"
+    },
+    "construction": {
+      "type": "string"
+    },
+    "roof": {
+      "type": "text"
+    },
+    "utilities": {
+      "type": "text"
+    },
+    "security_features": {
+      "type": "text"
+    },
+    "fencing": {
+      "type": "text"
+    },
+    "patio_orsym_deck_description": {
+      "type": "text"
+    },
+    "garage_description": {
+      "type": "text"
+    },
+    "stories": {
+      "type": "integer"
     }
   }
 }

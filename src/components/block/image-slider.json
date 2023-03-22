@@ -6,7 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "image": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video"
+      ],
+      "default": "image"
+    },
+    "media": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -16,17 +24,6 @@
         "videos",
         "audios"
       ]
-    },
-    "video_url": {
-      "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "image",
-        "video"
-      ],
-      "default": "image"
     }
   }
 }
