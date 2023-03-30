@@ -10,6 +10,8 @@ module.exports = ({ env }) => ({
               __dirname,
               "..",
               "..",
+              "..",
+
               "storage",
               env("DATABASE_FILENAME", "data.db")
             )
