@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_parts_ck_editor_v2s",
+  "info": {
+    "displayName": "ck_editor_v2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

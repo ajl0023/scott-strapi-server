@@ -53,7 +53,8 @@
         "page-parts.sub-header",
         "page-parts.text-content",
         "page-parts.video",
-        "page-parts.carousel"
+        "page-parts.carousel",
+        "page-parts.ck-editor-v2"
       ]
     }
   }
