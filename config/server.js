@@ -4,5 +4,8 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array("APP_KEYS"),
   },
-  url: "http://localhost:1337",
+  url:
+    env("NODE_ENV") === "production"
+      ? "https://joylftv7m17ps8x37052.cleaver.live"
+      : "",
 });

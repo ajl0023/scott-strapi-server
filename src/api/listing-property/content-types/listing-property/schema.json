@@ -82,6 +82,9 @@
     },
     "list_by": {
       "type": "string"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }

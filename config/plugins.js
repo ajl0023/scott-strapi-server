@@ -8,6 +8,9 @@ module.exports = {
       notificationProviders: [],
     },
   },
+  "drag-drop-content-types": {
+    enabled: true,
+  },
   "netlify-deployments": {
     enabled: true,
     config: {
